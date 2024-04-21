@@ -164,7 +164,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp NB_APOS>, <&kp NB_DQT>;
-
+            label = "quotus"
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
@@ -172,7 +172,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp NB_QMARK>, <&kp NB_EXCL>;
-
+            label = "questus"
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
