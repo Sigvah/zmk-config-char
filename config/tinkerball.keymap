@@ -91,6 +91,7 @@
 
             label = "HML";
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 30 31 32 33>;
+            hold-trigger-on-release;
         };
 
         hmr: hmr {
@@ -103,6 +104,7 @@
 
             label = "HMR";
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33>;
+            hold-trigger-on-release;
         };
 
         hmpt: homerow_mods_prefer_tap {
@@ -226,9 +228,9 @@
             // | Media/Play-Pause | Bspc/LC | SPC/Num/RC |                                                       | Ent | Tab |     |
 
             bindings = <
-  &lt BLUETOOTH Q  &kp W        &kp F        &blt NAV P          &kp B      &kp J    &kp L               &hml CAPS U   &kp Y        &kp MINUS
+  &lt BLUETOOTH Q  &kp W        &kp F        &blt NAV P          &kp B      &kp J    &kp L               &hml CAPS U  &kp Y        &kp MINUS
   &hml LCTRL A     &hml LALT R  &hml LGUI S  &hml LSHFT T        &kp G      &kp M    &hmr RIGHT_SHIFT N  &hmr RGUI E  &hmr LALT I  &hmr RCTRL O
-  &hml LSHFT Z      &kp X        &kp C        &kp D               &kp V      &kp K    &kp H               &kp COMMA    &kp DOT      &kp QMARK
+  &hml LSHFT Z     &kp X        &kp C        &kp D               &kp V      &kp K    &kp H               &kp COMMA    &kp DOT      &kp QMARK
                                 &kp SPACE    &blt NUMBERS SPACE  &kp TAB    &kp RET  &blt NUMBERS BSPC
             >;
 
@@ -256,8 +258,8 @@
             bindings = <
   &kp EXCL   &hml LS(LCTRL) AT  &hmpt LS(LALT) LBRC  &hml LS(LCMD) RBRC  &none                  &none     &hml RS(RCMD) LT  &hmpt RS(LALT) GT  &hml RS(RCTRL) ASTERISK  &hml LA(N3) HASH
   &kp CARET  &hml LCTRL DOLLAR  &hmpt LALT LPAR      &hml LCMD RPAR      &kp BACKSLASH          &kp AMPS  &hml RCMD EQL     &hmpt LALT MINUS   &hml RCTRL COLON         &kp SEMICOLON
-  &kp TILDE  &kp GRAVE         &kp LBKT             &kp RBKT           &none                  &none     &kp PLUS         &kp UNDERSCORE     &kp PERCENT             &kp QMARK
-                               &trans               &mt AMPS PIPE      &mt BACKSLASH SLASH    &kp DQT   &kp GRAVE
+  &kp TILDE  &kp GRAVE          &kp LBKT             &kp RBKT            &none                  &none     &kp PLUS          &kp UNDERSCORE     &kp PERCENT              &kp QMARK
+                                &trans               &mt AMPS PIPE       &mt BACKSLASH SLASH    &kp DQT   &kp GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -272,10 +274,10 @@
             //         |      |     |      |     |      |    .    |    =    |      |
 
             bindings = <
-  &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)   &none    &kp NB_BSLH    &kp N7    &kp N8          &kp N9  &kp NB_STAR
-  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)   &none    &kp NB_FSLH  &kp N4   &kp N5       &kp N6     &kp NB_EQUAL
-  &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)  &none    &kp NB_PIPE    &kp N1  &kp N2  &kp N3   &kp NB_PLUS
-                           &none        &none        &none    &kp DOT  &kp N0
+  &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)   &none    &kp NB_BSLH  &kp N7  &kp N8  &kp N9  &kp NB_STAR
+  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)   &none    &kp NB_FSLH  &kp N4  &kp N5  &kp N6  &kp NB_EQUAL
+  &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)  &none    &kp NB_PIPE  &kp N1  &kp N2  &kp N3  &kp NB_PLUS
+                           &none        &none        &none    &kp DOT      &kp N0
             >;
 
             trackball-bindings = <&tsl>;
@@ -289,10 +291,10 @@
             //         |      |     |      |     |      |    PgDN   |   PgUP  |      |
 
             bindings = <
-  &none  &none  &none  &none  &none    &none      &none      &kp UP    &none      &none
-  &kp LEFT   &kp DOWN  &kp UP &kp RIGHT      &none      &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RALT         &kp LCTRL  &none
-  &none  &none  &none  &none  &none    &none      &kp HOME   &none     &kp END    &none
-                &none  &none  &none    &kp PG_DN  &kp PG_UP
+  &none     &none     &none   &none      &none    &none            &none         &kp UP    &none      &none
+  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none    &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RALT  &kp LCTRL  &none
+  &none     &none     &none   &none      &none    &none            &kp HOME      &none     &kp END    &none
+                      &none   &none      &none    &kp PG_DN        &kp PG_UP
             >;
         };
 
