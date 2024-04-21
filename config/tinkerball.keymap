@@ -127,10 +127,10 @@
 // Esc/Lsft|  Q/Click  |  J  |  K  |  X  |                               |  B  |  M  |  N  |    V    |Z/Rsft|
 // | Media/Play-Pause | Bspc/LC | SPC/Num/RC |                                                       | Ent | Tab |     |
            bindings = <
-            &lt BLUETOOTH Q &kp W &kp F &blt NAV P &kp B &lt FUNCTION F &kp G &hm CAPS C &kp R  &kp L
+            &lt BLUETOOTH Q &kp W &kp F &blt NAV P &kp B &kp J &kp L &hm CAPS U &kp Y  &kp MINUS
             &blt SYMBOLS A &hm LCTRL R &hmpt LALT S &hm LCMD T &kp G &kp M &hm RCMD N &hmpt LALT E &hm RCTRL I &blt SYMBOLS O
-            &hm LSHFT Z &kp X &kp C &kp D &kp V &kp K &kp H &kp COMMA &kp DOT &kp QMARK &kp SPACE &blt NUMBERS TAB
-            &kp RET &kp BSPC &blt NUMBERS TAB &kp RET &kp BSPC &none
+            &hm LSHFT Z &kp X &kp C &kp D &kp V &kp K &kp H &kp COMMA &kp DOT &kp QMARK &kp SPACE &blt NUMBERS SPACE
+            &kp TAB &kp RET &blt NUMBERS BSPC &kp RET &kp BSPC &none
             >;
             sensor-bindings = <&inc_dec_kp BSPC BSPC>;
         };
