@@ -227,9 +227,9 @@
             // | Media/Play-Pause | Bspc/LC | SPC/Num/RC |                                                       | Ent | Tab |     |
 
             bindings = <
-  &lt BLUETOOTH Q  &kp W        &kp F        &blt NAV P          &kp B      &kp J    &kp L               &hm CAPS U   &kp Y        &kp MINUS
+  &lt BLUETOOTH Q  &kp W        &kp F        &blt NAV P          &kp B      &kp J    &kp L               &hml CAPS U   &kp Y        &kp MINUS
   &hml LCTRL A     &hml LALT R  &hml LGUI S  &hml LSHFT T        &kp G      &kp M    &hmr RIGHT_SHIFT N  &hmr RGUI E  &hmr LALT I  &hmr RCTRL O
-  &hm LSHFT Z      &kp X        &kp C        &kp D               &kp V      &kp K    &kp H               &kp COMMA    &kp DOT      &kp QMARK
+  &hml LSHFT Z      &kp X        &kp C        &kp D               &kp V      &kp K    &kp H               &kp COMMA    &kp DOT      &kp QMARK
                                 &kp SPACE    &blt NUMBERS SPACE  &kp TAB    &kp RET  &blt NUMBERS BSPC
             >;
 
@@ -255,8 +255,8 @@
             //         |  ,,  | |/&  | //\ |                |    "    |    `    |   ,,   |
 
             bindings = <
-  &kp EXCL   &hm LS(LCTRL) AT  &hmpt LS(LALT) LBRC  &hm LS(LCMD) RBRC  &none                  &none     &hm RS(RCMD) LT  &hmpt RS(LALT) GT  &hm RS(RCTRL) ASTERISK  &hm LA(N3) HASH
-  &kp CARET  &hm LCTRL DOLLAR  &hmpt LALT LPAR      &hm LCMD RPAR      &kp BACKSLASH          &kp AMPS  &hm RCMD EQL     &hmpt LALT MINUS   &hm RCTRL COLON         &kp SEMICOLON
+  &kp EXCL   &hml LS(LCTRL) AT  &hmpt LS(LALT) LBRC  &hml LS(LCMD) RBRC  &none                  &none     &hml RS(RCMD) LT  &hmpt RS(LALT) GT  &hml RS(RCTRL) ASTERISK  &hml LA(N3) HASH
+  &kp CARET  &hml LCTRL DOLLAR  &hmpt LALT LPAR      &hml LCMD RPAR      &kp BACKSLASH          &kp AMPS  &hml RCMD EQL     &hmpt LALT MINUS   &hml RCTRL COLON         &kp SEMICOLON
   &kp TILDE  &kp GRAVE         &kp LBKT             &kp RBKT           &none                  &none     &kp PLUS         &kp UNDERSCORE     &kp PERCENT             &kp QMARK
                                &trans               &mt AMPS PIPE      &mt BACKSLASH SLASH    &kp DQT   &kp GRAVE
             >;
