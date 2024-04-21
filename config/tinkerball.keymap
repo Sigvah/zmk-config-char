@@ -17,13 +17,13 @@
 
 // tapping-term-ms
 #define TT 160
+&caps_word { continue-list = <NB_UNDERSCORE NB_MINUS WNB_UNDERSCORE WNB_MINUS>; };
 
 / {
   chosen {
     zmk,matrix_transform = &five_column_transform;
   };
 };
-&caps_word { continue-list = <NB_UNDERSCORE NB_MINUS WNB_UNDERSCORE WNB_MINUS>; };
 
 / {
     combos {
