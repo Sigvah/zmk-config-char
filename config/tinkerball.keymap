@@ -3,6 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include "keys_nb_osx.h"
+#include "keys_nb_win.h"
 
 #define MEDIA 1
 #define SYMBOLS 2
