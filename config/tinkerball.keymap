@@ -106,16 +106,6 @@
             hold-trigger-on-release;
         };
 
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <TT>;
-            quick-tap-ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-
         hmpt: homerow_mods_prefer_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_PREFER_TAP";
