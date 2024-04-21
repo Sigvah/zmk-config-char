@@ -164,6 +164,21 @@
             flavor = "2-dim";
             step_size = <50>;
         };
+                apos_dqt: quot_doublequot {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp NB_APOS>, <&kp NB_DQT>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        ques_excl: questionmark_exlamation_mark {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp NB_QMARK>, <&kp NB_EXCL>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     conditional_layers {
