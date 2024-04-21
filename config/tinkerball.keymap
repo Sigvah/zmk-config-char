@@ -89,6 +89,7 @@
             quick-tap-ms = <175>;                // repeat on tap-into-hold
             bindings = <&kp>, <&kp>;
 
+            label = "HML"
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 30 31 32 33>;
             hold-trigger-on-release;
         };
