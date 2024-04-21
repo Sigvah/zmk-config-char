@@ -23,7 +23,59 @@
     zmk,matrix_transform = &five_column_transform;
   };
 };
+&caps_word { continue-list = <NB_UNDERSCORE NB_MINUS WNB_UNDERSCORE WNB_MINUS>; };
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_ques {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&ques_excl>;
+        };
+
+        aa {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+        };
+
+        ae {
+            bindings = <&kp APOS>;
+            key-positions = <3 4>;
+        };
+
+        oe {
+            bindings = <&kp SEMI>;
+            key-positions = <27 28>;
+        };
+
+        combo_lpar {
+            bindings = <&kp NB_LPAR>;
+            key-positions = <9 8>;
+        };
+
+        combo_rpara {
+            bindings = <&kp NB_RPAR>;
+            key-positions = <32 33>;
+        };
+
+        combo-lcurl {
+            bindings = <&kp NB_RBRC>;
+            key-positions = <2 3>;
+        };
+
+        combo_rcurl {
+            bindings = <&kp NB_RBRC>;
+            key-positions = <26 27>;
+        };
+
+        combo_at {
+            bindings = <&kp NB_AT>;
+            key-positions = <3 8>;
+        };
+    };
+};
 / {
     behaviors {
                 hml: homerow_mods {
