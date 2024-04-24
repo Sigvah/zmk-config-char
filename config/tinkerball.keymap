@@ -274,10 +274,10 @@
             //         |      |     |      |     |      |    .    |    =    |      |
 
             bindings = <
-  &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)   &none    &kp NB_BSLH  &kp N7  &kp N8  &kp N9  &kp NB_STAR
-  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)   &none    &kp NB_FSLH  &kp N4  &kp N5  &kp N6  &kp NB_EQUAL
-  &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)  &none    &kp NB_PIPE  &kp N1  &kp N2  &kp N3  &kp NB_PLUS
-                           &none        &none        &none    &kp DOT      &kp N0
+  &kp LS(F5)        &kp LS(F6)   &kp LS(F7)    &kp LS(F8)   &none    &kp NB_BSLH  &kp N7  &kp N8  &kp N9  &kp NB_STAR
+  &kp LEFT_CONTROL  &kp LALT     &kp LEFT_GUI  &kp LSHIFT   &none    &kp NB_FSLH  &kp N4  &kp N5  &kp N6  &kp NB_EQUAL
+  &kp LS(F9)        &kp LS(F10)  &kp LS(F11)   &kp LS(F12)  &none    &kp NB_PIPE  &kp N1  &kp N2  &kp N3  &kp NB_PLUS
+                                 &none         &none        &none    &kp DOT      &kp N0
             >;
 
             trackball-bindings = <&tsl>;
