@@ -343,10 +343,10 @@
 
         click {
             bindings = <
-  &trans     &trans  &trans    &trans     &trans       &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT  &trans  &trans    &trans     &trans       &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL  &trans  &kp LALT  &kp LCMD   &trans       &trans  &trans  &trans  &trans  &trans
-                     &trans    &mkp LCLK  &mkp RCLK    &trans  &trans
+  &trans     &trans        &trans        &trans      &trans       &trans     &trans           &trans         &trans        &trans
+  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LSHIFT  &trans       &trans     &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp LEFT_ALT  &kp RCTRL
+  &kp LCTRL  &trans        &kp LALT      &kp LCMD    &trans       &trans     &trans           &trans         &trans        &trans
+                           &trans        &mkp LCLK   &mkp RCLK    &mkp RCLK  &mkp LCLK
             >;
 
             trackball-bindings = <&tmv_fine>;
