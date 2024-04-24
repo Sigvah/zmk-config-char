@@ -292,7 +292,7 @@
 
             bindings = <
   &none     &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &none    &none            &none         &kp UP    &none      &none
-  &kp LEFT  &kp DOWN      &kp UP      &kp RIGHT   &none    &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RALT  &kp LCTRL  &none
+  &kp LEFT  &kp DOWN      &kp UP      &kp RIGHT   &none    &none       &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RALT  &kp LCTRL
   &kp HOME  &kp PG_DN     &kp PG_UP   &kp END     &none    &none            &kp HOME      &none     &kp END    &none
                           &none       &none       &none    &none            &none
             >;
