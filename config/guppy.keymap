@@ -70,7 +70,7 @@
             &hm LSHFT Z &kp X &kp C &kp D &kp V &kp CAPS &kp CAPS &kp K &kp H &kp COMMA &kp DOT &kp QMARK
             &kp C_MUTE &kp SPACE &blt NUMBERS TAB &kp RET &kp BSPC &none
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &repeat_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         symbols {
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
