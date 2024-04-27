@@ -39,7 +39,7 @@
 
         aa {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <22 23>;
+            key-positions = <26 27>;
         };
 
         ae {
@@ -49,7 +49,7 @@
 
         oe {
             bindings = <&kp SEMI>;
-            key-positions = <27 26>;
+            key-positions = <23 22>;
         };
 
         combo_lpar {
@@ -226,10 +226,10 @@
             // | Media/Play-Pause | Bspc/LC | SPC/Num/RC |                                                       | Ent | Tab |     |
 
             bindings = <
-  &lt BLUETOOTH Q  &kp W        &kp F        &blt NAV P          &kp B      &kp J    &kp L               &hml CAPS U  &kp Y        &kp MINUS
-  &hml LCTRL A     &hml LALT R  &hml LGUI S  &hml LSHFT T        &kp G      &kp M    &hmr RIGHT_SHIFT N  &hmr RGUI E  &hmr LALT I  &hmr RCTRL O
-  &hml LSHFT Z     &kp X        &kp C        &kp D               &kp V      &kp K    &kp H               &kp COMMA    &kp DOT      &kp QMARK
-                                &kp SPACE    &blt NUMBERS SPACE  &kp TAB    &kp RET  &blt NUMBERS BSPC
+  &lt BLUETOOTH Q  &kp W        &kp F        &blt NAV P          &kp B         &kp J    &kp L               &hml CAPS U  &kp Y        &kp MINUS
+  &hml LCTRL A     &hml LALT R  &hml LGUI S  &hml LSHFT T        &kp G         &kp M    &hmr RIGHT_SHIFT N  &hmr RGUI E  &hmr LALT I  &hmr RCTRL O
+  &hml LSHFT Z     &kp X        &kp C        &kp D               &kp V         &kp K    &kp H               &kp COMMA    &kp DOT      &kp QMARK
+                                &kp SPACE    &blt NUMBERS SPACE  &blt 5 TAB    &kp RET  &blt 4 BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -289,10 +289,10 @@
             //         |      |     |      |     |      |    PgDN   |   PgUP  |      |
 
             bindings = <
-  &none     &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &none    &none            &none         &kp UP    &none      &none
-  &kp LEFT  &kp DOWN      &kp UP      &kp RIGHT   &none    &none       &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RALT  &kp LCTRL
-  &kp HOME  &kp PG_DN     &kp PG_UP   &kp END     &none    &none            &kp HOME      &none     &kp END    &none
-                          &none       &none       &none    &none            &none
+  &none     &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &none    &none  &none            &kp UP        &none     &none
+  &kp LEFT  &kp DOWN      &kp UP      &kp RIGHT   &none    &none  &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RALT  &kp LCTRL
+  &kp HOME  &kp PG_DN     &kp PG_UP   &kp END     &none    &none  &kp HOME         &none         &kp END   &none
+                          &none       &none       &none    &none  &none
             >;
         };
 
@@ -304,10 +304,10 @@
             //         |      |     |      |     |      |           |         |      |
 
             bindings = <
-  &kp F5  &kp F6   &kp F7   &kp F8   &none      &none  &kp F7  &kp F8  &kp F9  &kp F12
-  &kp F1  &kp F2   &kp F3   &kp F4   &kp DEL    &none  &kp F4  &kp F5  &kp F6  &kp F11
-  &kp F9  &kp F10  &kp F11  &kp F12  &none      &none  &kp F1  &kp F2  &kp F3  &kp F10
-                   &none    &none    &none      &none  &none
+  &kp F5     &kp F6        &kp F7        &kp F8      &none      &none  &kp F7  &kp F8  &kp F9  &kp F12
+  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LSHIFT  &kp DEL    &none  &kp F4  &kp F5  &kp F6  &kp F11
+  &kp F9     &kp F10       &kp F11       &kp F12     &none      &none  &kp F1  &kp F2  &kp F3  &kp F10
+                           &none         &none       &none      &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
