@@ -232,7 +232,7 @@
                                 &kp SPACE    &blt NUMBERS SPACE  &kp TAB    &kp RET  &blt NUMBERS BSPC
             >;
 
-            sensor-bindings = <&inc_dec_kp BSPC BSPC>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>>;
         };
 
         medi_jah {
